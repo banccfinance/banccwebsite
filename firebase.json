@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "dist",
+    "site":"Bancc - The future of Cryptocurrency payments and much more.",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
