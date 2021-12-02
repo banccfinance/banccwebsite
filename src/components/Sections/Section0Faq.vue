@@ -61,7 +61,7 @@
         <h5 class="section-1__paragraph mt-4 fw-500">
           Want to take a deeper dive into the Bancc Blockchain?
         </h5>
-        <a href="https://ico.bancc.io/signup" target="_blank" rel="noopener noreferrer">
+        <a href="https://serv.bancc.io/signup" target="_blank" rel="noopener noreferrer">
         <Button class="my-4" value="JOIN THE ICO" />
         </a>
       </div>

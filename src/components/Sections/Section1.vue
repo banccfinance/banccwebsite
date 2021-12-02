@@ -44,7 +44,7 @@
             </b-col>
           </b-row>
         </div>
-        <a href="https://ico.bancc.io" target="_blank" rel="noopener noreferrer">
+        <a href="https://serv.bancc.io/signup" target="_blank" rel="noopener noreferrer">
         <Button  ass="my-4" value="JOIN THE ICO" />
         </a>
       </div>

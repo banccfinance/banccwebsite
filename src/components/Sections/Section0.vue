@@ -14,7 +14,7 @@
           - we belive we are the future of the payment industry and we're
           inviting YOU on the journey. Join our ICO starting 14th January 2022.
         </h5>
-        <a href="https://ico.bancc.io" target="_blank" rel="noopener noreferrer">
+        <a href="https://serv.bancc.io/signup" target="_blank" rel="noopener noreferrer">
         <Button class="my-4" value="JOIN THE ICO" />
         </a>
       </div>

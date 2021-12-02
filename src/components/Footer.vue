@@ -1,9 +1,11 @@
 <template>
   <b-container>
     <div class="footer">
-      <h4>Privacy</h4>
+      <h4>Information</h4>
       <p>
-        Copyright © 2021 Spaceium Ltd. All rights reserved.
+        Copyright © 2021 Spaceium Ltd. All rights reserved. <a href="https://doc.bancc.io" target="_blank" rel="noopener noreferrer">
+         Privacy Policy </a> <a href="https://doc.bancc.io" target="_blank" rel="noopener noreferrer">
+         Terms & Conditions </a>
         
       </p>
       <div class="d-flex justify-content-between">
