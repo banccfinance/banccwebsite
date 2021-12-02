@@ -2,12 +2,12 @@
   <div class="section-2">
     <b-container>
       <h1 class="section-2__title title">
-        BANCC brings value <br />to our investors.
+        BANCC brings value <br />to the average joe.
       </h1>
       <h5 class="section-2__paragraph mt-4">
-        The idea of bringing value to investors has always been one of our key
-        focuses, we do that by brining real world usage of our $BANC coin -
-        Helping to increase the price based on usage!
+        The idea of bringing value to the average joe has always been one of our key
+        focuses, we do that by brining real world usage of our $BANC coin!
+        
       </h5>
       <div
         class="
