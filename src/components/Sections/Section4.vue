@@ -32,7 +32,7 @@
           </h5>
         </b-col>
         <b-col md="6" class="d-flex justify-content-md-start">
-          <a href="https://ico.bancc.io" target="_blank" rel="noopener noreferrer">
+          <a href="https://serv.bancc.io/signup" target="_blank" rel="noopener noreferrer">
           <Button :value="'Join ICO'" />
           </a>
         </b-col>

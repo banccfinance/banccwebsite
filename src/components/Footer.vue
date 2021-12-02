@@ -3,8 +3,8 @@
     <div class="footer">
       <h4>Information</h4>
       <p>
-        Copyright © 2021 Spaceium Ltd. All rights reserved. <a href="https://doc.bancc.io" target="_blank" rel="noopener noreferrer">
-         Privacy Policy </a> <a href="https://doc.bancc.io" target="_blank" rel="noopener noreferrer">
+        Copyright © 2021 Spaceium Ltd. All rights reserved. <a href="https://docs.google.com/document/d/1AurVe1ODumOja8ng1j0OnaadZxYopGf6Hs7SgSADNsg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+         Privacy Policy </a> <a href="https://docs.google.com/document/d/18TFPyJYHxArQq-R312DqlXSVDnWVpXQyyZvbW6NIFzY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
          Terms & Conditions </a>
         
       </p>
