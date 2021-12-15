@@ -18,9 +18,9 @@
                 years old his first business with Benjamin, building websites
                 and apps. Currently studying Psychology apart from working on
                 Bancc. He has the most technical and critical knowledge for
-                blockchain development, economics and inf rastructure for
-                building advanced technology. He is an important part for build-
-                ing Bancc success.
+                blockchain development, economics and infrastructure for
+                building advanced technology. He is an important part for building
+                 Bancc's success.
               </h4>
             </div>
           </b-col>
@@ -45,7 +45,7 @@
               <p class="team-container__sub-title text-uppercase">
                 Isak Håkon Caldwell - Chief Financial Officer
               </p>
-              <img src="https://bancc.io/files/Isak.png" width="150" />
+              <img src="https://bancc.io/files/Isak.png" width="250" />
               <h4 class="mt-3 abouttrio-title team-container__title">
                 Isak has been a successful property investor since the age 
                 of 18 and is now the CEO of a successful carpentry company. 
@@ -56,10 +56,48 @@
               </h4>
             </div>
           </b-col>
+          <b-col md="6" cols="12">
+            <div class="mb-5 team-container team-container--small">
+              <p class="team-container__sub-title text-uppercase">
+                Oskar Wennerlund - Lead Designer & Developer
+              </p>
+              <img src="https://bancc.io/files/Oskar1.png" width="120" />
+              <h4 class="mt-3 abouttrio-title team-container__title">
+                Oskar is a soon to be finished full stack developer.
+                Oskar has an excellent eye for creating and designing 
+                websites, apps and everything that comes with the process
+                of doing so. Oskar will be an excellent support for 
+                creating and leading the design process of the Bancc platform.
+              </h4>
+            </div>
+          </b-col>
+      
+      <h1 class="section-1__title title">Advisors</h1>
+      <div class="section-1__move-left">
+        <b-row>
+          <b-col md="4" cols="12">
+            <div class="mb-5 team-container team-container--small">
+              <p class="team-container__sub-title text-uppercase">
+                Talal - Technical Advisor
+              </p>
+              <img src="" width="150" />
+              <h4 class="mt-3 abouttrio-title team-container__title">
+                Talal have a long experience with Network maintenance and 
+                setup in the telecom industry. Talal has been with us literally
+                 since day one and he has been eager and very enthusiastic 
+                 about the project. We see great potential with his 
+                 knowledge and skills for the more hardware/software 
+                 part of the blockchain.
+              </h4>
+            </div>
+          </b-col>
         </b-row>
+      </div>
+       </b-row>
       </div>
     </b-container>
   </div>
+  
 </template>
 
 <script>

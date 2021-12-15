@@ -83,11 +83,12 @@
                 </h1>
                 <div class="section-5__card__button">
                   <a href="https://serv.bancc.io/signup" target="_blank" rel="noopener noreferrer">
-                  <Button :isLink="true" :noPadding="true" value="Apply" />
+                  <Button :isLink="true" :noPadding="true" value="Signup" />
                   </a>
                 </div>
               </div>
             </b-col>
+            
             <b-col xl="6" class="d-flex section-5__card-wrapper">
               <div class="section-5__card section-5__card--gradient-bg">
                 <h5 class="m-0 section-5__card__sub-title text-uppercase">
@@ -100,20 +101,66 @@
                   />
                 </div>
                 <h1 class="m-0 section-5__card__title">
-                  Apply to be one of the first validators
+                  Apply to be one of the first validators on the Bancc Blockchain in history!
                 </h1>
-                <div class="section-5__card__button">
-                  <a href="https://doc.bancc.io/validator" target="_blank" rel="noopener noreferrer">
-                  <Button :isLink="true" :noPadding="true" value="Apply" />
+                <div class="">
+                  <a href="https://forms.gle/P1QaUmp8Lf71XwsC6" target="_blank" rel="noopener noreferrer">
+                  <Button :isLink="true" :noPadding="true" value="Apply"  />
                   </a>
                 </div>
               </div>
             </b-col>
+            <!-- added -->
+            <b-col xl="6" class="d-flex mt-5 mb-5">
+              <div class="section-5__card">
+                <div class="section-5__card__icon-wrapper">
+                  <img src="" class="section-5__card__icon" />
+                </div>
+                <h1 class=" section-5__card__title">Community</h1>
+                <p class="section-5__paragraph ">
+                  What is a cryptocurrency project without a community?
+                  Yup, that's right. Nothing, Nada, ZER0! Therefore our two main
+                  mascots for this project invites you to our BIG competition!
+                  Viking Thor & Freya welcomes you! 
+                  
+                  
+                </p>
+              </div>
+            </b-col>
+            
+            <b-col xl="6" class="d-flex  ">
+              <div class="section-5__card section-5__card--gradient-bg">
+                <h5 class="m-0 section-5__card__sub-title text-uppercase">
+                  Community
+                </h5>
+                <div class="d-flex align-items-center justify-content-center">
+                  <img
+                    src="@/assets/imgs/Thorfreya2(1).png"
+                    class="section-5__card__icon--main"
+                    
+                    
+                  />
+                </div>
+                <h1 class="m-0 section-5__card__title">
+                  Viking Thor & Viking Freya are waiting for you!
+                  
+                  200K$ in PRIZES!
+                </h1>
+                <div class="section-5__card__button">
+                  <a href="https://t.me/VikingThorBot" target="_blank" rel="noopener noreferrer">
+                  <Button :isLink="true" :noPadding="true" value="Join now!"  />
+                  </a>
+                </div>
+              </div>
+            </b-col>
+            
+            <!-- added end -->
           </b-row>
         </b-col>
       </b-row>
     </b-container>
   </div>
+  
 </template>
 
 <script>

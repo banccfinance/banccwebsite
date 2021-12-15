@@ -53,8 +53,11 @@
         </h5>
 
       </div>
+      <img src="https://bancc.io/files/bancapptrio3.png" width="1000" align="right" />
     </b-container>
+    
   </div>
+  
 </template>
 
 <script>
@@ -104,5 +107,10 @@ export default {
   @media (max-width: 767.98px) {
     margin-left: 0;
   }
+  @media only screen and (max-width: 500px) {
+    img {
+       display: none;
+    }
+}
 }
 </style>

@@ -60,7 +60,7 @@ export default {
         },
         {
           ic:'fab fa-instagram',
-          url:'Https://www.instagram.com/bancc.io'
+          url:'https://www.instagram.com/bancc_io/'
         }
       ]
     }

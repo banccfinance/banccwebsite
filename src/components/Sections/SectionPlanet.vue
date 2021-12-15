@@ -4,7 +4,7 @@
       <!-- <h5 class="text-uppercase section-planet__sub-title">
         BANNC GIVES YOU CONTROL
       </h5> -->
-      <h1 class="section-planet__title title">BANNC GIVES YOU CONTROL</h1>
+      <h1 class="section-planet__title title">BANCC GIVES YOU CONTROL</h1>
       <p class="section-planet__title planet-title mt-4">
         Be your own payment processor
       </p>
@@ -22,6 +22,7 @@
         Be your own exchange
       </p>
       <p class="section-planet__title planet-title mt-4">Be your own BANCC.</p>
+      <img src="https://bancc.io/files/bancappduo1.png" width="1500" align="right">
 
       <!-- <transition name="fade"> -->
       <!-- <p class="section-planet__title planet-title mt-4" v-if="show==0">

@@ -1,4 +1,5 @@
 <template>
+
   <div class="section-1about">
     <b-container>
       <h5 class="text-uppercase section-1about__sub-title">
@@ -35,6 +36,7 @@
               <!-- <small class="about-trio-container__tag">Coming Soon</small> -->
             </div>
           </b-col>
+          
           <b-col md="4" cols="12">
             <div class="mb-5 about-trio-container about-trio-container--small">
               <p class="about-trio-container__sub-title text-uppercase">
@@ -53,6 +55,7 @@
           FIAT —> $BANCC<br />
           FIAT —> $BANCC —> FIAT<br />
         </h5> -->
+        
 
         <h5 class="section-1about__paragraph mt-4">
           We do this to help and create an organic and steady rise in price of
@@ -181,5 +184,10 @@ export default {
   @media (max-width: 1199.98px) {
     height: auto;
   }
+  @media only screen and (max-width: 500px) {
+    img {
+       display: none;
+    }
+}
 }
 </style>

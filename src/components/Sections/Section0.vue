@@ -4,9 +4,10 @@
       <h5 class="text-uppercase section-1__sub-title">
         Forget your bank, go BANCC.
       </h5>
+      
       <h1 class="section-1__title title">BANCC<br />VISION</h1>
       <div class="section-1__move-left">
-        <h5 class="section-1__paragraph mt-4">
+        <h5 class="section-1__paragraph mt-4" align="left"> 
           We're the reason Crypto will become mainstream. The faults of the
           payment industry is about to be a memory of the past. Its time for
           crypto to do what crypto was designed to do - solve real world
@@ -17,9 +18,18 @@
         <a href="https://serv.bancc.io/signup" target="_blank" rel="noopener noreferrer">
         <Button class="my-4" value="JOIN THE ICO" />
         </a>
+        
       </div>
+      
     </b-container>
+   
+<img src="https://bancc.io/files/bancapp1.png" width="1000" align="right" />
+
+
+    
+    
   </div>
+  
 </template>
 
 <script>
@@ -69,5 +79,10 @@ export default {
   @media (max-width: 767.98px) {
     margin-left: 0;
   }
+  @media only screen and (max-width: 500px) {
+    img {
+       display: none;
+    }
+}
 }
 </style>
