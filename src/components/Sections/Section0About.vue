@@ -12,7 +12,7 @@
           crypto to do what crypto was designed to do - solve real world
           problems. With our $BANCC coin and all the features that comes with it
           - we belive we are the future of the payment industry and we're
-          inviting YOU on the journey. Join our ICO starting 14th January 2022.
+          inviting YOU on the journey. Join our launch starting 14th January 2022.
         </h5>
         <h5 class="section-1__paragraph mt-4">
           As the name states, you’ve probably already understod at least a

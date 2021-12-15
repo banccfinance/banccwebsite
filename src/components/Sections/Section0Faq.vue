@@ -62,7 +62,7 @@
           Want to take a deeper dive into the Bancc Blockchain?
         </h5>
         <a href="https://serv.bancc.io/signup" target="_blank" rel="noopener noreferrer">
-        <Button class="my-4" value="JOIN THE ICO" />
+        <Button class="my-4" value="JOIN THE LAUNCH" />
         </a>
       </div>
     </b-container>

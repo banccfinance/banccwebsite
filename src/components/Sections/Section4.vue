@@ -23,7 +23,7 @@
         <b-col md="6" class="d-flex">
           <h5 class="section-4__card mt-4 mr-5">
             <p class="text-uppercase m-0 section-4__card__sub-title">
-              ICO PRICE
+              LAUNCH PRICE
             </p>
             <div class="d-flex align-items-center">
               <h1 class="m-0 section-4__card__title title">$0.004</h1>
@@ -33,7 +33,7 @@
         </b-col>
         <b-col md="6" class="d-flex justify-content-md-start">
           <a href="https://serv.bancc.io/signup" target="_blank" rel="noopener noreferrer">
-          <Button :value="'Join ICO'" />
+          <Button :value="'JOIN THE LAUNCH'" />
           </a>
         </b-col>
       </b-row>
