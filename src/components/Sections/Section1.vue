@@ -44,8 +44,24 @@
             </b-col>
           </b-row>
         </div>
-        <a href="https://serv.bancc.io/signup" target="_blank" rel="noopener noreferrer">
-        <Button  ass="my-4" value="JOIN THE LAUNCH" />
+            <b-dropdown id="dropdown-offset" offset="25"  text="APPLY FOR WHITELIST" variant="success" align="center" class="m-4">
+              <b-dropdown-item href="https://www.bancc.io/refer" target="_blank">Apply for Whitelist</b-dropdown-item>
+              <b-dropdown-item href="https://doc.bancc.io/documentation/v/launch/competitions/refer-a-friend" target="_blank">Information</b-dropdown-item>
+              <b-dropdown-item href="https://doc.bancc.io/documentation/v/launch/competitions/rules" target="_blank">Rules</b-dropdown-item>
+              <b-dropdown-item href="https://doc.bancc.io/documentation/v/launch/competitions" target="_blank">Competitions</b-dropdown-item>
+        </b-dropdown>
+        &nbsp;&nbsp;
+        <a href="https://doc.bancc.io" target="_blank" rel="noopener noreferrer">
+        <Button class="my-0 my-md-4" value="WHITEPAPER" /> 
+        </a>
+        &nbsp;&nbsp;
+        <a href="https://t.me/banccio" target="_blank" rel="noopener noreferrer">
+        <Button
+          class="my-0 my-md-4"
+          :isLink="true"
+          value="JOIN TELEGRAM"
+          icon="fab fa-telegram-plane"
+        />
         </a>
       </div>
     </b-container>

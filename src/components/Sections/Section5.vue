@@ -222,7 +222,7 @@ export default {
       display: block;
     }
     &--gradient-bg {
-      background: linear-gradient(#1d1b1e, #11681c);
+      background: linear-gradient(#000, #1d1b1e, #009245 );
       border-radius: 25px;
       padding: 20px 20px 60px;
       width: 100%;

@@ -10,7 +10,9 @@
     <div class="bg-2-wrapper">
       <section-2 />
     </div>
-    <section-3 />
+    <div class="bg-s3-wrapper">
+      <section-3 />
+    </div>
     <div class="bg-3-wrapper">
       <section-planet />
     </div>
@@ -51,7 +53,7 @@ export default {
 
 <style>
 .bg-1-wrapper {
-  background: url("~@/assets/imgs/bg-1.png");
+  background: url("~@/assets/imgs/bg-4.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -59,23 +61,29 @@ export default {
   background: url("~@/assets/imgs/bg-2.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center center;
+  background-position: right center;
   padding: 200px 0;
 }
 .bg-2-wrapper-inv {
-  background: url("~@/assets/imgs/bg-2.png");
+  background: url("~@/assets/imgs/bg-4-rev.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center right;
+  background-position:  center right;
   padding: 200px 0;
+}
+.bg-s3-wrapper {
+  background: url("~@/assets/imgs/bg-2.png");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: center center;
+  
 }
 .bg-3-wrapper {
   background: url("~@/assets/imgs/bg-3.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right center;
-  padding: 750px 0;
-  margin-top: -200px;
+  
 }
 @media (max-width: 991.98px) {
   .bg-3-wrapper {
@@ -88,7 +96,7 @@ export default {
   }
 }
 .bg-4-wrapper {
-  background: url("~@/assets/imgs/bg-4.png");
+  background: url("~@/assets/imgs/bg-4-old.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left center;

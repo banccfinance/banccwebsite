@@ -10,6 +10,9 @@
     <div class="bg-1-wrapper">
       <section-2About />
     </div>
+    <div class="bg-5-wrapper">
+      <section-3About />
+    </div>
     <!-- <div class="bg-1-wrapper">
       <section-1 />
     </div>
@@ -34,6 +37,7 @@ import Navbar from "../components/Navbar.vue";
 import Section0About from "../components/Sections/Section0About.vue";
 import Section1About from "../components/Sections/Section1About.vue";
 import Section2About from "../components/Sections/Section2About.vue";
+import Section3About from "../components/Sections/Section3About.vue"; 
 
 // import Section1 from "../components/Sections/Section1.vue";
 // import Section2 from "../components/Sections/Section2.vue";
@@ -57,30 +61,31 @@ export default {
     // Section5,
     // SectionPlanet,
     Footer,
+    Section3About
   },
 };
 </script>
 
 <style>
 .bg-1-wrapper {
-  background: url("~@/assets/imgs/bg-1.png");
+  background: url("~@/assets/imgs/bg-4.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
 .bg-2-wrapper {
-  background: url("~@/assets/imgs/bg-2.png");
+  background: url("~@/assets/imgs/bg-3-inv-old.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center center;
-  padding: 200px 0;
+  background-position: left center;
+  
 }
 .bg-3-wrapper {
   background: url("~@/assets/imgs/bg-3.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right center;
-  padding: 750px 0;
-  margin-top: -200px;
+  
+  
 }
 @media (max-width: 991.98px) {
   .bg-3-wrapper {
@@ -95,7 +100,13 @@ export default {
 .bg-4-wrapper {
   background: url("~@/assets/imgs/bg-4.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 40%;
+  background-position: left center;
+}
+.bg-5-wrapper {
+  background: url("~@/assets/imgs/bg-1-old.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
   background-position: left center;
 }
 </style>

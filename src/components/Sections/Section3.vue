@@ -33,7 +33,7 @@
                 class="mb-5 coming-soon-container coming-soon-container--small"
               >
                 <p class="coming-soon-container__sub-title text-uppercase">
-                  Masternode
+                  Validator
                 </p>
                 <img
                   src="@/assets/imgs/icon1.png"

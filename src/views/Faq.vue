@@ -67,7 +67,7 @@ export default {
   background-size: contain;
 }
 .bg-2-wrapper {
-  background: url("~@/assets/imgs/bg-2.png");
+  background: url("~@/assets/imgs/bg-2-old.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -94,7 +94,7 @@ export default {
 .bg-4-wrapper {
   background: url("~@/assets/imgs/bg-4.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: left center;
+  background-size: 40%;
+  background-position: right center;
 }
 </style>

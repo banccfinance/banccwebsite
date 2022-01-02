@@ -22,7 +22,7 @@
         Be your own exchange
       </p>
       <p class="section-planet__title planet-title mt-4">Be your own BANCC.</p>
-      <img src="https://bancc.io/files/bancappduo1.png" width="1500" align="right">
+      
 
       <!-- <transition name="fade"> -->
       <!-- <p class="section-planet__title planet-title mt-4" v-if="show==0">
@@ -76,7 +76,7 @@ export default {
 <style lang="scss">
 .section-planet {
   // text-align: center;
-  max-width: 50%;
+  max-width: 70%;
   margin-left: 5%;
 
   &__title {

@@ -17,8 +17,7 @@
           d-md-flex
           align-items-center
           justify-content-center
-        "
-      > 
+        "> 
       <a href="https://doc.bancc.io" target="_blank" rel="noopener noreferrer">
         <Button class="my-0 my-md-4" value="Whitepaper" /> 
         </a>
@@ -30,6 +29,12 @@
           icon="fab fa-telegram-plane"
         />
         </a>
+        <b-dropdown id="dropdown-offset" offset="25"  text="APPLY FOR WHITELIST" variant="success" align="center" class="m-4">
+              <b-dropdown-item href="https://www.bancc.io/refer" target="_blank">Apply for Whitelist</b-dropdown-item>
+              <b-dropdown-item href="https://doc.bancc.io/documentation/v/launch/competitions/refer-a-friend" target="_blank">Information</b-dropdown-item>
+              <b-dropdown-item href="https://doc.bancc.io/documentation/v/launch/competitions/rules" target="_blank">Rules</b-dropdown-item>
+              <b-dropdown-item href="https://doc.bancc.io/documentation/v/launch/competitions" target="_blank">Competitions</b-dropdown-item>
+        </b-dropdown>
       </div>
     </b-container>
   </div>

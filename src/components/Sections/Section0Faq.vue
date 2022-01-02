@@ -50,7 +50,7 @@
           wants to work for free but charging high fees harms the potential
           growth of the network. Sending 10$ of worth should not be costing 60$
           at prime time. The general public will be needing something that is
-          cost effective and easier to use then the current services provided
+          cost effective and easier to use than the current services provided
           today. Bancc solves this problem in a decentralised manner with
           creating a healthy and sustainable economy that does not rely on one
           single part, but the overall users in the network.
@@ -61,9 +61,16 @@
         <h5 class="section-1__paragraph mt-4 fw-500">
           Want to take a deeper dive into the Bancc Blockchain?
         </h5>
-        <a href="https://serv.bancc.io/signup" target="_blank" rel="noopener noreferrer">
-        <Button class="my-4" value="JOIN THE LAUNCH" />
+        <b-dropdown id="dropdown-offset" offset="25"  text="APPLY FOR WHITELIST" variant="success" align="center" class="m-4">
+              <b-dropdown-item href="https://www.bancc.io/refer" target="_blank">Apply for Whitelist</b-dropdown-item>
+              <b-dropdown-item href="https://doc.bancc.io/documentation/v/launch/competitions/refer-a-friend" target="_blank">Information</b-dropdown-item>
+              <b-dropdown-item href="https://doc.bancc.io/documentation/v/launch/competitions/rules" target="_blank">Rules</b-dropdown-item>
+              <b-dropdown-item href="https://doc.bancc.io/documentation/v/launch/competitions" target="_blank">Competitions</b-dropdown-item>
+        </b-dropdown>
+        <a href="https://doc.bancc.io" target="_blank" rel="noopener noreferrer">
+        <Button class="my-0 my-md-4" value="WHITEPAPER" /> 
         </a>
+        
       </div>
     </b-container>
   </div>

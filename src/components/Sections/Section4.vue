@@ -1,8 +1,10 @@
 <template>
   <div class="section-4">
     <b-container>
+      <img src="https://bancc.io/files/Exchange-5.png" width="1500" height="auto" >
       <p class="text-uppercase section-4__sub-title">WHO ARE WE?</p>
       <h1 class="section-4__title title">BANCC</h1>
+      
       <b-row class="align-items-center">
         <b-col md="12">
           <h5 class="d-flex section-4__card align-items-center">
@@ -31,12 +33,22 @@
             <small class="section-4__card__info">3BN Starting supply</small>
           </h5>
         </b-col>
-        <b-col md="6" class="d-flex justify-content-md-start">
-          <a href="https://serv.bancc.io/signup" target="_blank" rel="noopener noreferrer">
-          <Button :value="'JOIN THE LAUNCH'" />
-          </a>
+        <b-col md="6" class="">
+          &nbsp;&nbsp;
+        <a href="https://doc.bancc.io" target="_blank" rel="noopener noreferrer">
+        <Button class="my-0 my-md-4" value="WHITEPAPER" /> 
+        </a>
+        &nbsp;&nbsp;
+        <b-dropdown id="dropdown-offset" offset="25"  text="APPLY FOR WHITELIST" variant="success" align="center" class="m-4">
+              <b-dropdown-item href="https://www.bancc.io/refer" target="_blank">Apply for Whitelist</b-dropdown-item>
+              <b-dropdown-item href="https://doc.bancc.io/documentation/v/launch/competitions/refer-a-friend" target="_blank">Information</b-dropdown-item>
+              <b-dropdown-item href="https://doc.bancc.io/documentation/v/launch/competitions/rules" target="_blank">Rules</b-dropdown-item>
+              <b-dropdown-item href="https://doc.bancc.io/documentation/v/launch/competitions" target="_blank">Competitions</b-dropdown-item>
+        </b-dropdown>
+        
         </b-col>
       </b-row>
+      
     </b-container>
   </div>
 </template>
@@ -97,5 +109,21 @@ export default {
       }
     }
   }
+  .exchange-5 {
+  height: auto;
+  }
+  @media (max-width: 991.98px) {
+    max-width: 80%;
+  }
+  @media (max-width: 767.98px) {
+    max-width: 100%;
+  }
+  @media only screen and (max-width: 500px) {
+    img {
+       display: none;
+    }
+
+
+}
 }
 </style>

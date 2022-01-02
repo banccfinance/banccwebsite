@@ -6,7 +6,8 @@
       </h5>
       <h1 class="section-1__title title">About BANCC.</h1>
       <div class="section-1__move-left">
-        <h5 class="section-1__paragraph mt-4">
+        <div class="mb-6 coming-soon-container coming-soon-container--small">
+        <h5 class="section-1__paragraph ">
           We're the reason Crypto will become mainstream. The faults of the
           payment industry is about to be a memory of the past. Its time for
           crypto to do what crypto was designed to do - solve real world
@@ -19,6 +20,7 @@
           little bit about what we do. BANCC is founded and has a vision to
           compete with regular banks in the following segments
         </h5>
+        </div>
         <h5 class="section-1__paragraph mt-4">
           <b-row>
             <b-col md="6" class="mt-4">
@@ -49,10 +51,32 @@
                 icon="fa fa-building"
               />
             </b-col>
+            
+      <b-dropdown id="dropdown-offset" offset="25"  text="APPLY FOR WHITELIST" variant="success" align="center" class="m-4">
+              <b-dropdown-item href="https://www.bancc.io/refer" target="_blank">Apply for Whitelist</b-dropdown-item>
+              <b-dropdown-item href="https://doc.bancc.io/documentation/v/launch/competitions/refer-a-friend" target="_blank">Information</b-dropdown-item>
+              <b-dropdown-item href="https://doc.bancc.io/documentation/v/launch/competitions/rules" target="_blank">Rules</b-dropdown-item>
+              <b-dropdown-item href="https://doc.bancc.io/documentation/v/launch/competitions" target="_blank">Competitions</b-dropdown-item>
+        </b-dropdown>
+
+        &nbsp;&nbsp;
+        <a href="https://doc.bancc.io" target="_blank" rel="noopener noreferrer">
+        <Button class="my-0 my-md-4" value="WHITEPAPER" /> 
+        </a>
+        &nbsp;&nbsp;
+        <a href="https://t.me/banccio" target="_blank" rel="noopener noreferrer">
+        <Button
+          class="my-0 my-md-4"
+          :isLink="true"
+          value="JOIN TELEGRAM"
+          icon="fab fa-telegram-plane"
+        />
+        </a>
           </b-row>
         </h5>
-
+      
       </div>
+      
       <img src="https://bancc.io/files/bancapptrio3.png" width="1000" align="right" />
     </b-container>
     

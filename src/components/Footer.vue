@@ -1,11 +1,13 @@
 <template>
   <b-container>
     <div class="footer">
-      <h4>Information</h4>
+      
+      <h4>Information</h4> 
       <p>
         Copyright © 2021 Spaceium Ltd. All rights reserved. <a href="https://docs.google.com/document/d/1AurVe1ODumOja8ng1j0OnaadZxYopGf6Hs7SgSADNsg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-         Privacy Policy </a> <a href="https://docs.google.com/document/d/18TFPyJYHxArQq-R312DqlXSVDnWVpXQyyZvbW6NIFzY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-         Terms & Conditions </a>
+         &nbsp;&nbsp;Privacy Policy </a> <a href="https://docs.google.com/document/d/18TFPyJYHxArQq-R312DqlXSVDnWVpXQyyZvbW6NIFzY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+         &nbsp;&nbsp;Terms & Conditions </a>
+         &nbsp;&nbsp;<a>Inquires are sent to </a> <a href="mailto:contact@bancc.io" target="_blank">contact@bancc.io</a>
         
       </p>
       <div class="d-flex justify-content-between">
